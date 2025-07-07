@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:untitled3/presentation/screens/login/login_view.dart';
+import 'package:untitled3/presentation/screens/notifications/notification_view.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -8,10 +10,13 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginView(),
+      home: NotificationView(),
+
     );
   }
 }
