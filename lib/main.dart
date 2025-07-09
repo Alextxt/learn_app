@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:untitled3/presentation/screens/login/login_view.dart';
 import 'package:untitled3/presentation/screens/notifications/notification_view.dart';
+import 'package:untitled3/presentation/screens/user_list/user_list_view.dart';
 
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: NotificationView(),
+      home: UserListView(),
 
     );
   }
